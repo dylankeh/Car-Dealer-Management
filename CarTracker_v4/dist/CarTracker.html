@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'CarTracker.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJDYXJUcmFja2VyLmpubHAiPgogIDxpbmZvcm1hdGlvbj4KICAgIDx0aXRsZT5DYXJUcmFja2VyPC90aXRsZT4KICAgIDx2ZW5kb3I+UGhvZW5peDwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPgogICAgPGphciBocmVmPSJDYXJUcmFja2VyLmphciIgc2l6ZT0iMjEzMTciIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2d1YXZhLTIxLjAuamFyIiBzaXplPSIyNTIxMTEzIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJDYXJUcmFja2VyIiA+CiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+CiAgPC9hcHBsZXQtZGVzYz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0idGVzdHByb2plY3QuTWFpbiIgIG5hbWU9IkNhclRyYWNrZXIiIC8+CiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+Cjwvam5scD4K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedtestproject() {
+        dtjava.embed(
+            {
+                id : 'testproject',
+                url : 'CarTracker.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGpubHAgc3BlYz0iMS4wIiB4bWxuczpqZng9Imh0dHA6Ly9qYXZhZnguY29tIiBocmVmPSJDYXJUcmFja2VyLmpubHAiPgogIDxpbmZvcm1hdGlvbj4KICAgIDx0aXRsZT5DYXJUcmFja2VyPC90aXRsZT4KICAgIDx2ZW5kb3I+UGhvZW5peDwvdmVuZG9yPgogICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPgogICAgPG9mZmxpbmUtYWxsb3dlZC8+CiAgPC9pbmZvcm1hdGlvbj4KICA8cmVzb3VyY2VzPgogICAgPGoyc2UgdmVyc2lvbj0iMS42KyIgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIvPgogICAgPGphciBocmVmPSJDYXJUcmFja2VyLmphciIgc2l6ZT0iMjEzMTciIGRvd25sb2FkPSJlYWdlciIgLz4KICAgIDxqYXIgaHJlZj0ibGliL2d1YXZhLTIxLjAuamFyIiBzaXplPSIyNTIxMTEzIiBkb3dubG9hZD0iZWFnZXIiIC8+CiAgPC9yZXNvdXJjZXM+CiAgPGFwcGxldC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0iY29tLmphdmFmeC5tYWluLk5vSmF2YUZYRmFsbGJhY2siICBuYW1lPSJDYXJUcmFja2VyIiA+CiAgICA8cGFyYW0gbmFtZT0icmVxdWlyZWRGWFZlcnNpb24iIHZhbHVlPSI4LjArIi8+CiAgPC9hcHBsZXQtZGVzYz4KICA8amZ4OmphdmFmeC1kZXNjICB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgbWFpbi1jbGFzcz0idGVzdHByb2plY3QuTWFpbiIgIG5hbWU9IkNhclRyYWNrZXIiIC8+CiAgPHVwZGF0ZSBjaGVjaz0iYWx3YXlzIi8+Cjwvam5scD4K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedtestproject);
+</script>
+
+</head><body>
+<h2>Test page for <b>CarTracker</b></h2>
+  <b>Webstart:</b> <a href='CarTracker.jnlp' onclick="return launchApplication('CarTracker.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

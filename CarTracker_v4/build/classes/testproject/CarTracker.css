@@ -1,0 +1,25 @@
+/* 
+    Created on : 4-Apr-2017, 10:48:32 AM
+    Author     : mackhope
+*/
+.root {
+    -fx-font-family: Gafata;
+}
+
+#s3Buttons {
+    -fx-font-family: Gafata;
+    -fx-font-size: 20;
+    -fx-color: white;
+    -fx-background-color: Blue;
+    -fx-border-radius: 0;
+    -fx-text-fill: white;
+    -fx-text-align: center;
+}
+
+.scroll-pane .track{
+    -fx-opacity: 0;
+}
+.scroll-pane .scroll-bar{
+    -fx-base: transparent;
+}
+
